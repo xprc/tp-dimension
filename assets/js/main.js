@@ -1,11 +1,11 @@
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body'),
-		$wrapper = $('#wrapper'),
-		$header = $('#header'),
-		$footer = $('#footer'),
-		$main = $('#main'),
+		$body = document.getElementById('body'),
+		$wrapper = document.getElementById('#wrapper'),
+		$header = document.getElementById('#header'),
+		$footer = document.getElementById('#footer'),
+		$main = document.getElementById('#main'),
 		$main_articles = $main.children('article');
 
 	// Breakpoints.
